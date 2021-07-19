@@ -34,3 +34,16 @@ Clone this repo in your local and make a new branch with your name, update the r
 ###### You can always reach out to Sairam Bade or Kuldeep on slack in case of any doubt. Good Luck!
 ---------------------------------------------
 #Your readme goes here :)
+
+**Database details**
+Mongo server (host) : mongo.servers.nferx.com
+database name : yaswanth
+Collections : projects, datasets, models
+The reason behind having three collections is because of the kind of queries we have on our database
+- getProjectDetails
+- getDatasetDetails
+- getModelDetails
+- loadProjectDetails
+**User Credentials**
+Add your user credentials to the Credentials.py file before running the application. (MONGO_USER and MONGO_PASSWORD) Also modify port number, if necessary.
+
