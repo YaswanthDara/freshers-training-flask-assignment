@@ -44,11 +44,11 @@ database name : yaswanth
 Collections : projects, datasets, models
 
 The reason behind having three collections is because of the kind of queries we have on our database
-- getProjectDetails
-- getDatasetDetails
-- getModelDetails
-- loadProjectDetails
-- 
+- getprojectdetails
+- getdatasetdetails
+- getmodeldetails
+- loadprojectdetails
+ 
 **User Credentials**
 
 Add your user credentials to the Credentials.py file before running the application. (MONGO_USER and MONGO_PASSWORD) Also modify port number, if necessary.
