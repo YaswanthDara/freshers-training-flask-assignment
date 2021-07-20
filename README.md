@@ -38,8 +38,11 @@ Clone this repo in your local and make a new branch with your name, update the r
 **Database details**
 
 Mongo server (host) : mongo.servers.nferx.com
+
 database name : yaswanth
+
 Collections : projects, datasets, models
+
 The reason behind having three collections is because of the kind of queries we have on our database
 - getProjectDetails
 - getDatasetDetails
