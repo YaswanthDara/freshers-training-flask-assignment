@@ -53,3 +53,30 @@ The reason behind having three collections is because of the kind of queries we 
 
 Add your user credentials to the Credentials.py file before running the application. (MONGO_USER and MONGO_PASSWORD) Also modify port number, if necessary.
 
+**Workflow for APIs**
+
+There are 4 APIs in total (excluding root page API)
+
+1. loadprojectdetails API
+
+   This api is used to import the project details into my database.
+   and Method is GET
+   The project id is taken as a path param. If project_id is valid and not imported then we will import. otherwise respond accordingly.
+   
+2.  getprojectdetails API
+
+    This api is used to show the dataset and model details for given  project id.
+     and Method is GET
+     The project id is taken as a path param. If project_id is valid and imported then will send the details as response. otherwise respond accordingly.
+
+3.  getmodeldetails API
+    
+    This api is used to show the model details for given model_name.
+   and Method is GET
+   The model_name is taken as a path param.
+   
+4.  getdatasetdetails API
+    This api used to show the dataset details (along with which models used this dataset) for given dataset_id and method is GET.
+    the dataset_id is taken as a path param.
+    
+
