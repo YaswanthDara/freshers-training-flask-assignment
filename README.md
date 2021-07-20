@@ -65,18 +65,17 @@ There are 4 APIs in total (excluding root page API)
    
 2.  getprojectdetails API
 
-    This api is used to show the dataset and model details for given  project id.
-     and Method is GET
+    This api is used to show the dataset and model details for given  project id and Method is GET
      The project id is taken as a path param. If project_id is valid and imported then will send the details as response. otherwise respond accordingly.
 
 3.  getmodeldetails API
     
-    This api is used to show the model details for given model_name.
-   and Method is GET
+    This api is used to show the model details for given model_name and Method is GET
    The model_name is taken as a path param.
    
 4.  getdatasetdetails API
+
     This api used to show the dataset details (along with which models used this dataset) for given dataset_id and method is GET.
-    the dataset_id is taken as a path param.
+    The dataset_id is taken as a path param.
     
 
